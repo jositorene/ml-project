@@ -1,0 +1,36 @@
+{
+    "query": "mineral water, carrots and celery, mustard, jar of pickles, jam or preserve, mineral water, milk, fruit juice, milk, yogurt, mustard, apples, pears, lemon, cantaloupe melon, strawberry yogurt, cold cuts or deli meat, gelatin or dessert, cherries, pickled onion or relish, canned sardines, water, broccoli, tomatoes, spinach or lettuce, Tupperware with cut fruit, wine or alcoholic beverage bottle",
+    "total_results": 5,
+    "recipes": [
+        {
+            "title": "Terrific Iced Tea",
+            "directions": "[\"Steep tea and mint leaves in boiled spring water for 10 minutes.\", \"Strain.\", \"Zest orange and lemon rinds, avoiding the white pith.\", \"Squeeze the juice of the orange and lemon into a large jug, add the strained tea, fruit zest and sugar.\", \"Stir well to make sure sugar is dissolved.\", \"Chill and serve over ice.\", \"Hint: freeze some of this mixture into ice cubes!\"]",
+            "link": "www.food.com/recipe/terrific-iced-tea-126684",
+            "similarity_score": 0.3906518220901489
+        },
+        {
+            "title": "Cast Iron Cleaning",
+            "directions": "[\"Check your cast iron pieces for breaks and/or cracks. If there are any , this may not be suitable, I couldn't say for sure.\", \"If you have any severe residue, try to take it off, but cleaning will most likely remove it.\", \"Place your cast iron pieces of cookware open (or top) sides down on the middle rack in your oven. Space the pieces evenly.\", \"Following your oven oven's self-cleaning cycle directions, set your oven to begin the cycle. Don't forget to remove anything fron the stovetop and storage drawer, if you have it.\", \"Most self-cleaning ovens cycle for two hours, this is sufficient to clean cast iron too.\", \"When the oven cleaning cycle is complete, let everything cool to touch. Remove your cast iron from your oven.\", \"Your oven should have turned off from the cycle. Reset the oven to low just to warm it, like you would keep food warm.\", \"Brush off any powder residue, using a wire brush if necessary, to smooth the cast iron. Blow out or wipe out the dust, if you've done this.\", \"Using a new paper towel for each piece, use up to the 1 tablespoon of Crisco on your paper towel (some people recommend mineral oil) and smooth it over the complete surface of your cast iron. Make a thin layer. and a little thicker on the inside portion of your cookware.\", \"Set your pieces right side up in your oven and bake on low for 1 up to 2 hours, if your time allows.\", \"Take your cast iron out and let it cool on your stovetop.\", \"When you cast iron has cooled to touch, use more clean papertowels to wipe the excess Crisco fron the cast iron.\", \"I store my cast iron with a clean dishcloth between each piece, if I stack pieces.\", \"In between seasonings, clean in a mildly soapy water, turn the flame on your stovetop to medium high and set the cast iron on it until it dries, turn off the flame and let it cool to touch. Then wipe again on the inside with Crisco (or mineral oil) on a clean papertowel.\"]",
+            "link": "www.food.com/recipe/cast-iron-cleaning-162044",
+            "similarity_score": 0.3888564109802246
+        },
+        {
+            "title": "Hard Candies",
+            "directions": "[\"Cover and bring to a boil.\", \"Remove cover and boil to 290\\u00b0 Add flavoring and food coloring of choice.\", \"Pour on lightly oiled marble slab in small \\\"patties\\\".\"]",
+            "link": "www.cookbooks.com/Recipe-Details.aspx?id=971882",
+            "similarity_score": 0.3715094327926636
+        },
+        {
+            "title": "Kouing Aman",
+            "directions": "[\"In a small bowl, combine mineral water and salt. Let stand until salt has dissolved. Meanwhile, melt 2 tablespoons butter in a small saucepan over medium-low heat.\", \"In the bowl of an electric mixer fitted with the dough hook, combine flour and the melted butter on low speed. Add water-and-salt mixture, and continue to mix until well combined, about 2 minutes. Add yeast, and mix for 1 minute more.\", \"Cover the bowl with plastic wrap, and let rise in a warm place until doubled in size, about 1 hour. Punch the dough down, wrap in plastic, and place on a baking sheet. Chill for 2 hours in the refrigerator.\", \"Meanwhile, on a Silpat (a French nonstick baking mat) or parchment paper, roll the remaining 1 pound butter into a 1/2-inch-thick rectangle. Wrap in parchment paper, and return to refrigerator until chilled, about 30 minutes. Remove the chilled dough from the refrigerator. On a lightly floured surface, roll out the dough to an 18-inch square. Center the chilled butter rectangle on the dough so that each side of the butter faces a corner of the dough. Fold the corners of the dough over the butter to enclose. Seal the edges by pinching them together. Roll the dough into a 24-by-8-inch rectangle. Fold the dough into thirds, aligning the edges carefully and brushing off any excess flour. (The object is to ensure that the butter is distributed evenly throughout so that the pastry will puff evenly when baked.) Wrap the dough in plastic, and chill for 20 minutes; this completes one turn.\", \"Repeat process once, then repeat process twice, dusting the work surface and the dough with sugar, and using 1 1/2 cups for each turn. You will now have completed four turns.\", \"Using a pastry brush, brush 15 ring molds (3 1/2 by 3/4 inches) with melted butter. Transfer to prepared baking sheets, and set aside. Remove dough from refrigerator. On a lightly sugared surface, roll the dough into a 1/2-inch-thick rectangle. Cut into 15 squares (4 1/4 inches). Fold up the corners of one square toward the center; repeat process. Lightly press to adhere. Turn square over, and gently coat with sugar. Invert, and place in a prepared ring mold. Repeat with remaining squares.\", \"Preheat oven to 425 degrees. Let rise in a warm place until puffed, 30 to 40 minutes. Bake until golden brown, 35 to 40 minutes. Immediately remove ring molds, and place on a wire rack until completely cooled.\"]",
+            "link": "www.food.com/recipe/kouing-aman-340604",
+            "similarity_score": 0.36628448963165283
+        },
+        {
+            "title": "Mineral Broth Chicken Soup With Farro",
+            "directions": "[\"1 Combine all ingredients in a big pot. Bring to a boil, then let simmer for 15-20 minutes on low heat or until vegetables are cooked and chicken is pulling apart.\"]",
+            "link": "food52.com/recipes/32927-mineral-broth-chicken-soup-with-farro",
+            "similarity_score": 0.36108553409576416
+        }
+    ]
+}

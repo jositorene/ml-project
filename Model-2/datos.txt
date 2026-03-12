@@ -1,0 +1,89 @@
+wsl --install
+
+shutdown /r /t 0
+
+wsl --status
+
+If you get virtualization errors:
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+First Ubuntu setup:
+wsl
+wsl --set-default-version 2
+uname -a
+
+wsl --install -d Ubuntu
+=====================================
+alias python=python3
+sudo apt install python3.12-venv
+
+# create virtual environment
+python3 -m venv venv
+
+# activate (Linux / WSL / macOS)
+source venv/bin/activate
+
+pip install -r requirements_pipeline.txt
+
+deactivate 2>/dev/null || true
+rm -rf venv
+
+mkdir mlproj
+
+cp -r /mnt/c/Users/User/Documents/mlproj ~/
+cd ~/mlproj
+
+python3 -m venv venv
+source venv/bin/activate
+
+python3.11 -m venv venv
+source venv/bin/activate
+source ~/mlprojV3_venv/bin/activate
+pip install -r requirements.txt
+
+gemini api -- > enable 
+credentials
+
+
+student-00-27264c93c718@qwiklabs.net
+j6tYpZDIyNvz
+qwiklabs-gcp-00-1f1aece1da1c
+
+export GOOGLE_API_KEY="AIzaSyCbDeUxtw7fnBLrXoFTVgPepqiDAsLK6zQ"
+echo $GOOGLE_API_KEY
+streamlit run web.py
+
+python -c "import pandas; print('pandas OK')"
+
+if errror:  pip install --upgrade pip
+pip install pandas numpy scikit-learn faiss-cpu pyarrow joblib fastapi uvicorn[standard] google-cloud-storage
+
+python pipelines/04_build_faiss.py
+=====================================
+sudo apt-get update
+sudo apt-get install -y apt-transport-https ca-certificates gnupg curl
+
+curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee /etc/apt/sources.list.d/google-cloud-sdk.list
+
+sudo apt-get update
+sudo apt-get install -y google-cloud-cli
+
+gcloud --version
+
+gcloud auth login
+gcloud auth login --no-launch-browser
+4/0AfrIepBb_4vi2jvqFyasvNnmVJ4G7dyb3EcScGUK0NwA4z8nr4UIMjZcb1TXkTWiRuEMSQ
+4/0AfrIepBb_4vi2jvqFyasvNnmVJ4G7dyb3EcScGUK0NwA4z8nr4UIMjZcb1TXkTWiRuEMSQ
+gcloud config set project qwiklabs-gcp-04-c126ea786ac1
+
+
+student-00-a208c0853bd3@qwiklabs.net
+FHqiKD2QmSLx
+qwiklabs-gcp-04-c126ea786ac1
+
+========================
+terraform init
+terraform apply -auto-approve

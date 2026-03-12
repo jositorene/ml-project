@@ -1,0 +1,119 @@
+* { box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Segoe UI', sans-serif; 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    padding: 10px 4px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 18px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+}
+
+.card-header {
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a202c;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 6px;
+}
+
+.score {
+    display: inline-block;
+    background: #d4edda;
+    color: #276749;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 10px;
+    border-radius: 999px;
+}
+
+.steps-container {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 4px;
+}
+
+.steps-container::-webkit-scrollbar {
+    width: 4px;
+}
+.steps-container::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 10px;
+}
+
+.step {
+    font-size: 13px;
+    color: #4a5568;
+    line-height: 1.5;
+    margin-bottom: 6px;
+    display: flex;
+    gap: 8px;
+}
+
+.num {
+    background: #ebf8ff;
+    color: #2b6cb0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+details summary {
+    cursor: pointer;
+    font-size: 12px;
+    color: #718096;
+    padding: 4px 0;
+    font-weight: 600;
+}
+
+.card-footer {
+    padding-top: 10px;
+    border-top: 1px solid #edf2f7;
+    flex-shrink: 0;
+}
+
+.card-footer a {
+    font-size: 13px;
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.card-footer a:hover {
+    text-decoration: underline;
+}
+
+
