@@ -8,8 +8,7 @@ Este proyecto combina **Computer Vision**, **Procesamiento de Lenguaje Natural (
 ## Descripción del Proyecto
 **SmartFridge** transforma una fotografía de la nevera en un inventario digital dinámico. A diferencia de los sistemas genéricos, este proyecto utiliza un enfoque de tres capas (Localización + OCR + LLM) para identificar con precisión marcas y productos específicos, cruzando estos datos con un motor de recomendaciones para sugerir qué cocinar.
 
-[![Watch the video]
-(https://www.youtube.com/watch?v=up4Wf_Aq_P0)
+[![The Fridge Survival Guide](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=up4Wf_Aq_P0)
 
 ---
 
